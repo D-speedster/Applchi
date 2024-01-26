@@ -1,12 +1,15 @@
 // Start Mixin code
 @font-face {
-  font-family: "iransans";
-  src: url('assets/fonts/sans/WebFonts/IRANSans-Light-web.eot');
-
+  font-family: "Trickster";
+  src:
+    local("Trickster"),
+    url("assets/fonts/Sahel-Bold-FD.eot") format("opentype"),
+    url("assets/fonts/Sahel-Black-FD.ttf") format("opentype"),
+    url("assets/fonts/Sahel-FD.woff") format("woff");
 }
 
 body {
-  font-family: 'iransans' !important;
+  font-family: 'Trickster' !important;
 }
 
 @mixin He {
@@ -90,6 +93,9 @@ header {
 
     transition: 0.4s;
 
+    .nav-span{
+      font-family: 'Trickster'
+    }
     input {
       border: #cccc 1px solid;
       border-radius: 15px;
@@ -138,6 +144,8 @@ header {
 
   .Category {
     margin-bottom: 15px;
+    color: #000;
+ 
 
 
     .header-Category {
@@ -495,7 +503,7 @@ footer {
   }
 
   .Section-Data{
-    background-color: #ed1a1c;
+    background-color: #171616;
     height: 100px;
     width: 100%;
     margin-top: 25px;

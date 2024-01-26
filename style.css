@@ -1,14 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @font-face {
-  font-family: "iransans";
-  src: url("assets/fonts/sans/WebFonts/IRANSans-Light-web.eot");
+  font-family: "Trickster";
+  src: local("Trickster"), url("assets/fonts/Sahel-Bold-FD.eot") format("opentype"), url("assets/fonts/Sahel-Black-FD.ttf") format("opentype"), url("assets/fonts/Sahel-FD.woff") format("woff");
 }
 body {
-  font-family: "iransans" !important;
+  font-family: "Trickster" !important;
 }
 
 header nav {
   transition: 0.4s;
+}
+header nav .nav-span {
+  font-family: "Trickster";
 }
 header nav input {
   border: rgba(204, 204, 204, 0.8) 1px solid;
@@ -48,6 +51,7 @@ header nav .order-button:hover {
 }
 header .Category {
   margin-bottom: 15px;
+  color: #000;
 }
 header .Category .header-Category {
   height: 50px;
@@ -496,7 +500,7 @@ footer .list-footer ul li i {
   border-bottom: 1px solid red;
 }
 .instruction-product .Section-Data {
-  background-color: #ed1a1c;
+  background-color: #171616;
   height: 100px;
   width: 100%;
   margin-top: 25px;
